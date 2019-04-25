@@ -1,7 +1,7 @@
 RESTRICTION: || (== net472) (== netcoreapp2.2) (== netstandard2.0)
 NUGET
   remote: https://api.nuget.org/v3/index.json
-    Be.Vlaanderen.Basisregisters.Build.Pipeline (1.5)
+    Be.Vlaanderen.Basisregisters.Build.Pipeline (1.6)
     dotnet-sourcelink (2.8.3) - clitool: true
       Microsoft.Extensions.CommandLineUtils (>= 1.1.1) - restriction: || (&& (== net472) (>= netcoreapp1.0)) (== netcoreapp2.2) (&& (== netstandard2.0) (>= netcoreapp1.0))
       Microsoft.NETCore.App (>= 2.0) - restriction: || (&& (== net472) (>= netcoreapp2.0)) (== netcoreapp2.2) (&& (== netstandard2.0) (>= netcoreapp2.0))
