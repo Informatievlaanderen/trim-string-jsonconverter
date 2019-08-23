@@ -1,0 +1,6 @@
+Microsoft.NETCore.App
+
+xunit
+xunit.runner.visualstudio
+Microsoft.NET.Test.Sdk
+FluentAssertions
