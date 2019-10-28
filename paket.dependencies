@@ -19,7 +19,7 @@ nuget NETStandard.Library 2.0.3
 nuget Newtonsoft.Json 12.0.2
 
 // VBR STUFF
-nuget Be.Vlaanderen.Basisregisters.Build.Pipeline ~> 1.7
+nuget Be.Vlaanderen.Basisregisters.Build.Pipeline ~> 2.0
 
 // TEST STUFF
 nuget Microsoft.NET.Test.Sdk 16.2.0
@@ -28,7 +28,5 @@ nuget xunit.runner.visualstudio 2.4.1
 nuget FluentAssertions 5.7.0
 
 // BUILD STUFF
-nuget FAKE 4.64.13 // Don't update to v5!
 nuget SourceLink.Embed.AllSourceFiles 2.8.3 copy_local: true
 nuget SourceLink.Copy.PdbFiles 2.8.3 copy_local: true
-clitool dotnet-sourcelink 2.8.3

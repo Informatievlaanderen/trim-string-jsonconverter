@@ -1,6 +1,13 @@
+#r "paket:
+version 5.226.0
+framework: netstandard20
+source https://api.nuget.org/v3/index.json
+nuget Be.Vlaanderen.Basisregisters.Build.Pipeline 2.0.1 //"
+
 #load "packages/Be.Vlaanderen.Basisregisters.Build.Pipeline/Content/build-generic.fsx"
 
-open Fake
+open Fake.Core
+open Fake.Core.TargetOperators
 open ``Build-generic``
 
 let assemblyVersionNumber = (sprintf "%s.0")
@@ -13,19 +20,19 @@ let pack = packSolution nugetVersionNumber
 
 // Library ------------------------------------------------------------------------
 
-Target "Lib_Build" (fun _ -> build "Be.Vlaanderen.Basisregisters.Converters.TrimString")
-Target "Lib_Test" (fun _ -> test "Be.Vlaanderen.Basisregisters.Converters.TrimString")
+Target.create "Lib_Build" (fun _ -> build "Be.Vlaanderen.Basisregisters.Converters.TrimString")
+Target.create "Lib_Test" (fun _ -> test "Be.Vlaanderen.Basisregisters.Converters.TrimString")
 
-Target "Lib_Publish" (fun _ -> publish "Be.Vlaanderen.Basisregisters.Converters.TrimString")
-Target "Lib_Pack" (fun _ -> pack "Be.Vlaanderen.Basisregisters.Converters.TrimString")
+Target.create "Lib_Publish" (fun _ -> publish "Be.Vlaanderen.Basisregisters.Converters.TrimString")
+Target.create "Lib_Pack" (fun _ -> pack "Be.Vlaanderen.Basisregisters.Converters.TrimString")
 
 // --------------------------------------------------------------------------------
 
-Target "PublishLibrary" DoNothing
-Target "PublishAll" DoNothing
-Target "Test" DoNothing
-Target "PackageMyGet" DoNothing
-Target "PackageAll" DoNothing
+Target.create "PublishLibrary" ignore
+Target.create "PublishAll" ignore
+Target.create "Test" ignore
+Target.create "PackageMyGet" ignore
+Target.create "PackageAll" ignore
 
 // Publish ends up with artifacts in the build folder
 "DotNetCli" ==> "Clean" ==> "Restore" ==> "Lib_Build" ==> "Lib_Test" ==> "Lib_Publish" ==> "PublishLibrary"
@@ -36,4 +43,4 @@ Target "PackageAll" DoNothing
 "PublishLibrary" ==> "Lib_Pack" ==> "PackageMyGet"
 "PackageMyGet" ==> "PackageAll"
 
-RunTargetOrDefault "Lib_Test"
+Target.runOrDefault "Lib_Test"
