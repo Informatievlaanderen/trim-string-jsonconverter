@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/informatievlaanderen/trim-string-jsonconverter/compare/v2.0.0...v2.1.0) (2019-12-15)
+
+
+### Features
+
+* upgrade to netcoreapp31 ([08f1b8b](https://github.com/informatievlaanderen/trim-string-jsonconverter/commit/08f1b8be7370314a1c8f206ddaa2082e6e251a60))
+
 # [2.0.0](https://github.com/informatievlaanderen/trim-string-jsonconverter/compare/v1.1.1...v2.0.0) (2019-11-18)
 
 
