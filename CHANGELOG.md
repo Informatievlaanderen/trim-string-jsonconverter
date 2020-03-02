@@ -1,3 +1,10 @@
+## [2.2.1](https://github.com/informatievlaanderen/trim-string-jsonconverter/compare/v2.2.0...v2.2.1) (2020-03-02)
+
+
+### Bug Fixes
+
+* bump netcore to 3.1.2 ([ba34505](https://github.com/informatievlaanderen/trim-string-jsonconverter/commit/ba34505f8d66fefdf44d403430c85845c15704d0))
+
 # [2.2.0](https://github.com/informatievlaanderen/trim-string-jsonconverter/compare/v2.1.0...v2.2.0) (2020-01-31)
 
 
