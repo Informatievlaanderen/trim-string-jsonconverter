@@ -1,3 +1,10 @@
+## [2.2.2](https://github.com/informatievlaanderen/trim-string-jsonconverter/compare/v2.2.1...v2.2.2) (2020-04-28)
+
+
+### Bug Fixes
+
+* move to gh actions and 3.1.3 ([6fe9d43](https://github.com/informatievlaanderen/trim-string-jsonconverter/commit/6fe9d4371e6a208183b45c1ba630c6777e0b9a35))
+
 ## [2.2.1](https://github.com/informatievlaanderen/trim-string-jsonconverter/compare/v2.2.0...v2.2.1) (2020-03-02)
 
 
