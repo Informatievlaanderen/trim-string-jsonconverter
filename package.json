@@ -1,6 +1,6 @@
 {
   "name": "trim-string-jsonconverter",
-  "version": "2.2.3",
+  "version": "2.2.4",
   "description": "JSON.NET converter for trimming and removing duplicate spaces in strings.",
   "author": "Basisregisters Vlaanderen",
   "license": "MIT",
