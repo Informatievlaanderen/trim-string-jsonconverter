@@ -2,11 +2,39 @@
 
 ## Goal
 
-JSON.NET converter for trimming and removing duplicate spaces in strings.
+JSON.NET converter for trimming and removing duplicate spaces in incoming strings.
 
 ## Usage
 
-TODO.
+Add the `TrimStringConverter` to your configured `JsonSerializerSettings` and it will trim and remove multiple spaces from incoming strings.
+
+```csharp
+namespace Example
+{
+    using System;
+    using Be.Vlaanderen.Basisregisters.Converters.TrimString;
+    using Newtonsoft.Json;
+
+    public class Test
+    {
+        public string Something { get; set; }
+    }
+
+    public class Program
+    {
+        public static void Main(string[] _)
+        {
+            var json = @"{ ""something"": "" This is stuff some    users input    "" }";
+
+            var s = new JsonSerializerSettings();
+            s.Converters.Add(new TrimStringConverter());
+
+            Console.WriteLine($"'{JsonConvert.DeserializeObject<Test>(json, s).Something}'");
+            // 'This is stuff some users input'
+        }
+    }
+}
+```
 
 ## License
 
