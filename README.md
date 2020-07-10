@@ -36,6 +36,13 @@ namespace Example
 }
 ```
 
+Running this will result in:
+
+```bash
+$ dotnet run
+'This is stuff some users input'
+```
+
 ## License
 
 [MIT License](https://choosealicense.com/licenses/mit/)
