@@ -1,3 +1,10 @@
+## [2.2.6](https://github.com/informatievlaanderen/trim-string-jsonconverter/compare/v2.2.5...v2.2.6) (2020-09-21)
+
+
+### Bug Fixes
+
+* move to 3.1.8 ([2568f8a](https://github.com/informatievlaanderen/trim-string-jsonconverter/commit/2568f8a901a965405be1121ab12b9f48211cf2fa))
+
 ## [2.2.5](https://github.com/informatievlaanderen/trim-string-jsonconverter/compare/v2.2.4...v2.2.5) (2020-07-18)
 
 
