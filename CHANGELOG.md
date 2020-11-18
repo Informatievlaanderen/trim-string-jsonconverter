@@ -1,3 +1,10 @@
+## [2.2.7](https://github.com/informatievlaanderen/trim-string-jsonconverter/compare/v2.2.6...v2.2.7) (2020-11-18)
+
+
+### Bug Fixes
+
+* remove set-env usage in gh-actions ([4976ce8](https://github.com/informatievlaanderen/trim-string-jsonconverter/commit/4976ce83b568d55d1dca9fbe0f468f6c4db48522))
+
 ## [2.2.6](https://github.com/informatievlaanderen/trim-string-jsonconverter/compare/v2.2.5...v2.2.6) (2020-09-21)
 
 
