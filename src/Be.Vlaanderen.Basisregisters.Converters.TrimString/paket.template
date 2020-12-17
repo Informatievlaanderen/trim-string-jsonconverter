@@ -19,5 +19,5 @@ dependencies
     Newtonsoft.Json >= LOCKEDVERSION
 
 files
-  bin\Release\net5.0\linux-x64\Be.Vlaanderen.Basisregisters.Converters.TrimString.dll => lib\net5.0
-  bin\Release\net5.0\linux-x64\Be.Vlaanderen.Basisregisters.Converters.TrimString.pdb => lib\net5.0
+  bin\Release\net5.0\Be.Vlaanderen.Basisregisters.Converters.TrimString.dll => lib\net5.0
+  bin\Release\net5.0\Be.Vlaanderen.Basisregisters.Converters.TrimString.pdb => lib\net5.0
