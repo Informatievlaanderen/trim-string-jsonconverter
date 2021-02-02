@@ -5,7 +5,7 @@ source https://api.nuget.org/v3/index.json
 nuget Newtonsoft.Json 12.0.3
 
 // VBR STUFF
-nuget Be.Vlaanderen.Basisregisters.Build.Pipeline 5.0.1
+nuget Be.Vlaanderen.Basisregisters.Build.Pipeline 5.0.2
 
 // TEST STUFF
 nuget Microsoft.NET.Test.Sdk 16.8.3
