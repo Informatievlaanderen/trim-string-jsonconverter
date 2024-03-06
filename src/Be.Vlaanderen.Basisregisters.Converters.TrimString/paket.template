@@ -15,9 +15,9 @@ licenseUrl https://opensource.org/licenses/MIT
 description JSON.NET converter for trimming and removing duplicate spaces in strings.
 
 dependencies
-  framework: net6.0
+  framework: netstandard2.1
     Newtonsoft.Json >= LOCKEDVERSION
 
 files
-  bin\Release\net6.0\Be.Vlaanderen.Basisregisters.Converters.TrimString.dll => lib\net6.0
-  bin\Release\net6.0\Be.Vlaanderen.Basisregisters.Converters.TrimString.pdb => lib\net6.0
+  Be.Vlaanderen.Basisregisters.Converters.TrimString.dll => lib\netstandard2.1
+  Be.Vlaanderen.Basisregisters.Converters.TrimString.pdb => lib\netstandard2.1
