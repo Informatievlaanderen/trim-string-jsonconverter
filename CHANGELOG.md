@@ -1,3 +1,15 @@
+# [4.0.0](https://github.com/informatievlaanderen/trim-string-jsonconverter/compare/v3.0.0...v4.0.0) (2024-03-06)
+
+
+### Features
+
+* move to dotnet 8.0.2 ([cef1394](https://github.com/informatievlaanderen/trim-string-jsonconverter/commit/cef13949150f4c3d19cf5c96c9af0abef4cf2e3b))
+
+
+### BREAKING CHANGES
+
+* move to dotnet 8.0.2
+
 # [3.0.0](https://github.com/informatievlaanderen/trim-string-jsonconverter/compare/v2.2.11...v3.0.0) (2022-03-23)
 
 
