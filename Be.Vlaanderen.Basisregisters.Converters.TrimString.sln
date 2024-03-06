@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Be.Vlaanderen.Basisregister
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{453A566F-E4D5-4D12-A5A7-67D02B4330FD}"
 	ProjectSection(SolutionItems) = preProject
-		build.fsx = build.fsx
+		paket.dependencies = paket.dependencies
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Be.Vlaanderen.Basisregisters.Converters.TrimString.Tests", "test\Be.Vlaanderen.Basisregisters.Converters.TrimString.Tests\Be.Vlaanderen.Basisregisters.Converters.TrimString.Tests.csproj", "{D126779E-D975-41AA-8E16-D344E9C53715}"
