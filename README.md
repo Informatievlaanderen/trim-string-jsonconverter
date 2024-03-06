@@ -1,4 +1,4 @@
-# Be.Vlaanderen.Basisregisters.Converters.TrimString [![Build Status](https://github.com/Informatievlaanderen/trim-string-jsonconverter/workflows/CI/badge.svg)](https://github.com/Informatievlaanderen/trim-string-jsonconverter/actions)
+# Be.Vlaanderen.Basisregisters.Converters.TrimString [![Build Status](https://github.com/Informatievlaanderen/trim-string-jsonconverter/workflows/Build/badge.svg)](https://github.com/Informatievlaanderen/trim-string-jsonconverter/actions)
 
 ## Goal
 
