@@ -47,7 +47,7 @@ namespace Be.Vlaanderen.Basisregisters.Converters.TrimString.Tests
         [InlineData("   foo bar   ", "foo bar")]
         public void TrimsInputAsExpected(string input, string expected)
         {
-            _trimStringConverter.TrimInputField(input).Should().Be(expected);
+            TrimStringConverter.TrimInputField(input).Should().Be(expected);
         }
 
         [Fact]

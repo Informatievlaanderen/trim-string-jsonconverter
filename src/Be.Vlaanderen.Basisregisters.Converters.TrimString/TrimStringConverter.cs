@@ -13,13 +13,13 @@ namespace Be.Vlaanderen.Basisregisters.Converters.TrimString
         public override bool CanRead => true;
         public override bool CanWrite => false;
 
-        public override object ReadJson(JsonReader reader, Type objectType, object existingValue, JsonSerializer serializer)
-            => TrimInputField((string)reader.Value);
+        public override object? ReadJson(JsonReader reader, Type objectType, object? existingValue, JsonSerializer serializer)
+            => TrimInputField(reader.Value as string);
 
-        public override void WriteJson(JsonWriter writer, object value, JsonSerializer serializer)
+        public override void WriteJson(JsonWriter writer, object? value, JsonSerializer serializer)
             => throw new NotImplementedException("Unnecessary because CanWrite is false. The type will skip the converter.");
 
-        public string TrimInputField(string input)
+        public static string? TrimInputField(string? input)
         {
             if (string.IsNullOrEmpty(input))
                 return input;
