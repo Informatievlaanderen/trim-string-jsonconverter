@@ -1,3 +1,15 @@
+# [5.0.0](https://github.com/informatievlaanderen/trim-string-jsonconverter/compare/v4.0.0...v5.0.0) (2025-04-02)
+
+
+### Code Refactoring
+
+* use renovate and nuget + update pipeline ([d823f46](https://github.com/informatievlaanderen/trim-string-jsonconverter/commit/d823f4632f9638bd7df49959f7187df0b67961fe))
+
+
+### BREAKING CHANGES
+
+* update to dotnet 9
+
 # [4.0.0](https://github.com/informatievlaanderen/trim-string-jsonconverter/compare/v3.0.0...v4.0.0) (2024-03-06)
 
 
